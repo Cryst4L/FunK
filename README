@@ -25,8 +25,9 @@ The header of 'generate.py' must be configured. It asks for:
 	
 	-the fixed point, signed, number format used, in Q representation (ex: Q8.8, Q2.6, ...)
 	
-	-the number of 'retained bits' i.e the number of msb's taken as is. It's typically equal to the number
-	 of msb's in the Q representation. The bigger it is, the larger are the ROM's, but the smaller is the multiplier. 
+	-the number of 'retained bits' i.e the number of msb's taken as is. 
+	 It's typically equal to the number of msb's in the Q representation. 
+	 The bigger it is, the larger are the ROM's, but the smaller is the multiplier. 
 	 So you may wan't to play around with this value ;)
 	 
 Once configured, you just have to call 'python generate.py' : this script build the VHDL project and it's test bench, 
