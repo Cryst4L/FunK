@@ -1,0 +1,6 @@
+# Generated VHDL project
+/src
+/tb
+
+# GHDL simulation executable
+test_bench
