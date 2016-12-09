@@ -1,10 +1,9 @@
 	FUN(K)
 	------
-This tool mechanically generate a VHDL architecture which approximate a continous input function.
-The output is a piece-wise linear approximator implemented according to the "look and multiply" method. 
+This tool mechanically generate a VHDL architecture which approximate a continous input function. The output is a piece-wise linear approximator implemented according to the "look and multiply" method. 
 
-The resulting module will support signed representation in a fixed point number format predefined by the user.
-A test bench is also generated, and will be used to compute the exhaustive response of the module.
+The resulting module will support signed representation in a fixed point number format predefined by the user. A test bench is also generated, and will be used to compute the exhaustive response of the module.
+
 The obtained design can be used in data-flow (one input per cycle), but the response delay is of 5 cycles.
 
 This project has been FPGA proven on a Artix-200T @ 250Mhz
@@ -40,3 +39,4 @@ If you are crafting up an FPGA design and you want to use a non-linear function,
 Nevertheless for very specific functions such as trigonometry, exponential, or polynoms, i would recommend to use dedicated techniques. In this case, you may want to take a look at CORDIC and LBST before using this project :) 
 
 In other cases, enjoy !
+
