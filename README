@@ -1,6 +1,8 @@
 	FUN(K)
 	------
-This tool mechanically generate a VHDL architecture which approximate a continous input function. The output is a piece-wise linear approximator implemented according to the "look and multiply" method. 
+This tool mechanically generate a VHDL architecture which approximate a continous input function. 
+
+The output is a piece-wise linear approximator implemented according to the "look and multiply" method. 
 
 The resulting module will support signed representation in a fixed point number format predefined by the user. A test bench is also generated, and will be used to compute the exhaustive response of the module.
 
