@@ -28,7 +28,7 @@ The header of _generate.py_ must be configured. It asks for:
 - the fixed point, signed, number format used, in Q representation (ex: Q8.8, Q2.6, ...)  
 
 - the number of _retained bits_, that is to say the number of MSBs taken as is.  
-A typical value would be the number of MSBs in the Q representation.  
+A typical value would be the number of bits of the entire parts in the Q representation.  
 The bigger it is, the larger are the ROMs, but the smaller is the multiplier.  
 So you may wan't to play around with this value ;)
 	 
